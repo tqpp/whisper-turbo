@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info
+*.egg
+.pytest_cache
+.ipynb_checkpoints
+build/
+dist/
+
+# IDE
+thumbs.db
+.DS_Store
+.idea
+.vscode/
+*.swp
+*.swo
+
+# Model files
+*.pt
+*.pth
+models/
+
+# Logs and temp files
+*.log
+*.tmp
+temp/
+logs/
+
+# Performance results
+benchmark_results.json
+gpu_analysis.html
+test_turbo.py
+
+# Virtual environments
+venv/
+env/
+.env
+

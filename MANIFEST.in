@@ -1,0 +1,12 @@
+include requirements.txt
+include README.md
+include README_zh.md
+include LICENSE
+include CHANGELOG.md
+include benchmark.py
+include install_turbo.py
+include whisper/assets/*
+include whisper/normalizers/english.json
+recursive-include examples *.py
+recursive-exclude tests *
+recursive-exclude .github *
